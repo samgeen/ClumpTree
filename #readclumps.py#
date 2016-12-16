@@ -128,6 +128,4 @@ class Simulation(object):
 if __name__=="__main__":
     sim = Simulation("/data/Simulations/Clumps/run2703/clumps")
     snaps = []
-    for step in sim.AllSteps():
-        snaps.append(sim.FindSnapshot(step))
     print "DUN"
